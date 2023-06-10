@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Nadira's Art </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"rel="stylesheet">
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="css/jquery.galereya.css">
+       <script src="js/jquery.galereya.min.js"></script>
+
+       
+       <style>
+        @font-face {
+            font-family: 'Lovelo';
+            src: url('Lovelo_Line_Light.otf') format('opentype');
+        }
+        footer
+        {
+            background-color: black;
+            padding-bottom: 10vh;
+            padding-top: 10vh;
+        }
+       </style>
+
+       <script type="text/javascript">
+        window.onload=function()
+        {
+            $('#gal1').galereya(
+                {
+                    spacing: 10,
+                }
+            );
+
+        }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" style="margin-bottom:0">
+           <div class="container">
+             <div class="row">
+                <div class="col-lg-6">
+                    <h1 style="font-family: 'Lovelo';">Nadira's Art Gallery</h1>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="navbar-nav nav pull-right">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                 </div>
+             </div>
+          </div>
+        </nav>
+        <div id="gal1">
+            <img src="1.jpg" data-desc="Image 1" data-fullsrc="">
+            <img src="2.jpg" data-desc="Image 2" data-fullsrc="">
+            <img src="3.jpg" data-desc="Image 3" data-fullsrc="">
+            <img src="4.jpg" data-desc="Image 4" data-fullsrc="">
+            <img src="5.jpg" data-desc="Image 5" data-fullsrc="">
+            <img src="6.jpg" data-desc="Image 6" data-fullsrc="">
+            <img src="7.jpg" data-desc="Image 7" data-fullsrc="">
+            <img src="8.jpg" data-desc="Image 8" data-fullsrc="">
+            <img src="9.jpg" data-desc="Image 9" data-fullsrc="">
+            <img src="10.jpg" data-desc="Image 10" data-fullsrc="">
+          
+
+        </div>
+    </body>
+</html>
